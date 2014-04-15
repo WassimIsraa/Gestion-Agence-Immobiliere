@@ -20,9 +20,9 @@ public class Main {
 
 		String tf2 = client.getTF2();*/
 
-		Client client1 = new Client(111,"hamadi");
+	//	Client client1 = new Client(111,"hamadi");
 		//Client client2 = new Client(77,"israaaaaaa");
-		cdao.save(client1);
+	//cdao.save(client1);
 		
 
 		// Client client2=new Client(2,"fedi");

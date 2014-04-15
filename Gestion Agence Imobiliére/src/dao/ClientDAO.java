@@ -41,7 +41,7 @@ public class ClientDAO {
 	public List<Client> getClient()
 	{
 		List<Client> l=session.createQuery("from objet.Client").list();
-		System.out.println(l.get(1).getId()+l.get(1).getNom());
+		System.out.println(l.get(1).getCin()+l.get(1).getNom());
 		return l;
 	}
 	
