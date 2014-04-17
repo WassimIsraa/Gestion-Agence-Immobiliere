@@ -1,28 +1,42 @@
 package objet;
 
+import graphique.AjoutAppartement;
+import graphique.Login;
+import graphique.MenuPrincipal;
+
 import java.util.List;
 
 import objet.Client;
 
+import dao.AdresseDAO;
+import dao.AppartemmentDAO;
 import dao.ClientDAO;
+import dao.FarfourDAO;
 import objet.Client;
 import objet.Client;
 
 public class Main {
 
 	public static void main(String[] args) {
-		// System.out.println("mchetttt");
-		ClientDAO cdao = new ClientDAO();
-		Client client = new Client();
-	
+		
+	/*FarfourDAO fdao=new FarfourDAO();
+	Farfour f=new Farfour(" d", 11);
+		fdao.save(f);*/
+		MenuPrincipal l=new MenuPrincipal();
+		l.show();
+		
+		
+		/*AppartemmentDAO adao=new AppartemmentDAO();
+		Appartemment a=new Appartemment();*/
+		
+/*AdresseDAO ddao=new AdresseDAO();		
+Adresse adresse=new Adresse();
+Adresse a=new Adresse("monsatir","soussse","7 nouvembre");
+ddao.save(a);*/
 
-		/*int tf1 = client.getTF1();
-
-		String tf2 = client.getTF2();*/
-
-	//	Client client1 = new Client(111,"hamadi");
-		//Client client2 = new Client(77,"israaaaaaa");
-	//cdao.save(client1);
+       /* ClientDAO cdao=new ClientDAO();
+		Client c = new Client("aaa","aaa","aaa","aaa","aaa","aaa");
+	    cdao.save(c);*/
 		
 
 		// Client client2=new Client(2,"fedi");
